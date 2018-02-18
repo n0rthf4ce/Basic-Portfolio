@@ -31,6 +31,10 @@ h4{
     text-align: center;
     color: black;
 }
+p{
+    padding: 10px;
+    line-height: 150%;
+}
 nav{
     margin: auto;
     width: 970px;
@@ -71,13 +75,31 @@ a:hover {
 a:active {
     color: black;
 }
-hr{
-    color:lightgrey;
+::placeholder{
+    color: lightgrey;
+}
+input, textarea{
+    color: darkgrey;
+    margin: 5px 0 15px 0;
+    padding: 5px;
+    width: 100%;
+    border: 1px lightgrey solid;
+}
+textarea{
+    height: 80px;
+    resize: none;
 }
 .contact-button{
     margin: 5px 10px;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
+}
+.email-button{
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    width: 25%;
 }
 #sidebar{
     padding: 0px 15px 15px 15px;
@@ -103,4 +125,10 @@ hr{
     padding: 20px;
     background-color: #4aaaa5;
     float:left;
+}
+#email-form{
+    margin-top: 30px;
+    padding: 15px 30px 30px 30px;
+    background-color: white;
+    width: 600px;
 }
