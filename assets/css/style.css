@@ -14,7 +14,7 @@ main{
     margin: auto;
     margin-bottom: 70px;
     position: relative;
-    width: 970px;
+    width: 960px;
 }
 h3, h1{
     font-size: 2em;
@@ -37,7 +37,7 @@ p{
 }
 nav{
     margin: auto;
-    width: 970px;
+    width: 960px;
 }
 nav a{
     margin: 10px;
@@ -89,6 +89,12 @@ textarea{
     height: 80px;
     resize: none;
 }
+.main-content{
+    margin-top: 30px;
+    padding: 15px 30px 30px 30px;
+    background-color: white;
+    width: 650px;
+}
 .contact-button{
     margin: 5px 10px;
     height: 55px;
@@ -126,9 +132,13 @@ textarea{
     background-color: #4aaaa5;
     float:left;
 }
-#email-form{
-    margin-top: 30px;
-    padding: 15px 30px 30px 30px;
-    background-color: white;
-    width: 600px;
+#profile-image{
+    margin: 16px 10px 10px 10px;
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+#profile-header{
+    padding: 10px;
+    border-bottom: 2px gainsboro solid;
 }
