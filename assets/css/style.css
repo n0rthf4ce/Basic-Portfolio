@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: lightgrey;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url("../images/confectionary.png");
+}
+main{
+    margin: auto;
+    margin-bottom: 70px;
+    position: relative;
+    width: 970px;
+}
+h3, h1{
+    font-size: 2em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+h3{
+    padding-bottom: 20px;
+    font-size: 23px;
+    text-align: center;
+    border-bottom: 1px gainsboro solid;
+}
+h4{
+    text-align: center;
+    color: black;
+}
+nav{
+    margin: auto;
+    width: 970px;
+}
+nav a{
+    margin: 10px;
+    padding-top: 20px;
+    float:right;
+       
+}
+footer{
+    padding-bottom: 50px;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    border-top: 8px #4aaaa5 solid;
+
+}
+a:link {
+    text-decoration: none;
+    color:rgb(208,208,208);
+}
+
+/* visited link */
+a:visited {
+    color:grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4aaaa5;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+hr{
+    color:lightgrey;
+}
+.contact-button{
+    margin: 5px 10px;
+    height: 50px;
+    width: 50px;
+}
+#sidebar{
+    padding: 0px 15px 15px 15px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    right: 10px;
+    width: 270px;
+}
+#nav-container{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 0;
+    overflow: auto;
+    border-bottom: 2px lightgrey solid;
+}
+#nav-name{
+    position: relative;
+    left: 0;
+    margin: 0;
+    color: white;
+    padding: 20px;
+    background-color: #4aaaa5;
+    float:left;
+}
