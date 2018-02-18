@@ -100,12 +100,27 @@ textarea{
     height: 55px;
     width: 55px;
 }
+.contact-button:hover{
+    opacity: .5;
+}
+.main-header{
+    padding: 10px;
+    border-bottom: 2px gainsboro solid;
+}
 .email-button{
     padding: 5px;
     background-color: #4aaaa5;
     color: white;
     border: none;
     width: 25%;
+}
+.email-button:hover{
+    background-color: lightgrey;
+    color: #4aaaa5
+}
+.email-button:active{
+    background-color: grey;
+    color: #4aaaa5
 }
 #sidebar{
     padding: 0px 15px 15px 15px;
@@ -137,8 +152,4 @@ textarea{
     float: left;
     height: 200px;
     width: 300px;
-}
-#profile-header{
-    padding: 10px;
-    border-bottom: 2px gainsboro solid;
 }
