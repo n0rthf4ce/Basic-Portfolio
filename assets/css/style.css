@@ -31,6 +31,21 @@ h4{
     text-align: center;
     color: black;
 }
+h5{
+    font-size: 20px;
+    font-family: times new roman;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    position: absolute; 
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #4aaaa5;
+    float:left;
+}
 p{
     padding: 10px;
     line-height: 150%;
@@ -121,6 +136,19 @@ textarea{
 .email-button:active{
     background-color: grey;
     color: #4aaaa5
+}
+.portfolio-container{
+    position: relative;
+    height: 200px;
+    width: 262px;
+    margin: 15px;
+    display: inline-block;
+}
+.portfolio-item{
+    height: 200px;
+    width: 262px;
+    margin: auto;
+    
 }
 #sidebar{
     padding: 0px 15px 15px 15px;
