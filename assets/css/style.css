@@ -144,6 +144,9 @@ textarea{
     margin: 15px;
     display: inline-block;
 }
+.portfolio-container:hover{
+    opacity:.5;
+}
 .portfolio-item{
     height: 200px;
     width: 262px;
