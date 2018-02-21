@@ -38,7 +38,7 @@ h5{
     letter-spacing: 1.5px;
     position: absolute; 
     left: 0;
-    bottom: 10px;
+    bottom: -20px;
     width: 100%;
     text-align: center;
     color: white;
@@ -58,6 +58,7 @@ nav a{
     margin: 10px;
     padding-top: 20px;
     float:right;
+    z-index: 5;
        
 }
 footer{
@@ -103,6 +104,13 @@ input, textarea{
 textarea{
     height: 80px;
     resize: none;
+}
+.nav-line{
+    height: 22px;
+    width: 2px;
+    float: right;
+    margin: 28px 0 0 0;
+    z-index: -1;
 }
 .main-content{
     margin-top: 30px;
