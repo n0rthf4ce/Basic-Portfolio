@@ -2,7 +2,6 @@
 *{
     box-sizing: border-box;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: lightgrey;
 }
 html, body{
     margin: 0;
@@ -11,8 +10,9 @@ html, body{
     background-image: url("../images/confectionary.png");
 }
 main{
+    flex: 1;
     margin: auto;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     position: relative;
     width: 960px;
 }
@@ -25,11 +25,7 @@ h3{
     padding-bottom: 20px;
     font-size: 23px;
     text-align: center;
-    border-bottom: 1px gainsboro solid;
-}
-h4{
-    text-align: center;
-    color: black;
+    border-bottom: 1px #dddddd solid;
 }
 h5{
     font-size: 20px;
@@ -47,6 +43,7 @@ h5{
     float:left;
 }
 p{
+    color: #777777;
     padding: 10px;
     line-height: 150%;
 }
@@ -64,22 +61,20 @@ nav a{
 footer{
     padding-bottom: 50px;
     margin: auto;
-    height: 50px;
+    height: 90px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
     background-color: #666666;
     border-top: 8px #4aaaa5 solid;
 
 }
 a:link {
     text-decoration: none;
-    color:rgb(208,208,208);
+    color:#777777;
 }
 
 /* visited link */
 a:visited {
-    color:grey;
+    color:#bebebe;
 }
 
 /* mouse over link */
@@ -95,7 +90,7 @@ a:active {
     color: lightgrey;
 }
 input, textarea{
-    color: darkgrey;
+    color: #777777;
     margin: 5px 0 15px 0;
     padding: 5px;
     width: 100%;
@@ -105,6 +100,18 @@ textarea{
     height: 80px;
     resize: none;
 }
+form{
+    color: #777777;
+}
+h4{
+    font-weight: normal;
+    color: lightgrey;
+    border: 0;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+
+}
 .nav-line{
     height: 22px;
     width: 2px;
@@ -112,11 +119,27 @@ textarea{
     margin: 28px 0 0 0;
     z-index: -1;
 }
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .main-content{
     margin-top: 30px;
     padding: 15px 30px 30px 30px;
-    background-color: white;
+    background-color: #ffffff;
     width: 650px;
+    border: 1px #dddddd solid;
+}
+.sidebar{
+    border: 1px #dddddd solid;
+    padding: 0px 15px 15px 15px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 30px;
+    position: absolute;
+    right: 10px;
+    width: 270px;
 }
 .contact-button{
     margin: 5px 10px;
@@ -148,7 +171,7 @@ textarea{
 .portfolio-container{
     position: relative;
     height: 200px;
-    width: 262px;
+    width: 261px;
     margin: 15px;
     display: inline-block;
 }
@@ -156,8 +179,9 @@ textarea{
     opacity:.5;
 }
 .portfolio-item{
+    border-radius: 5% 0;
     height: 200px;
-    width: 262px;
+    width: 261px;
     margin: auto;
     
 }
@@ -168,21 +192,13 @@ textarea{
 .back-to-portfolio:hover{
     opacity: .5;
 }
-#sidebar{
-    padding: 0px 15px 15px 15px;
-    background-color: white;
-    margin: auto;
-    position: absolute;
-    right: 10px;
-    width: 270px;
-}
 #nav-container{
     width: 100%;
     background-color: #ffffff;
     position: relative;
     padding: 0;
     overflow: auto;
-    border-bottom: 2px yellow;
+    border-bottom: 2px #cccccc solid;
 }
 #nav-name{
     position: relative;
@@ -194,6 +210,7 @@ textarea{
     float:left;
 }
 #profile-image{
+    border-radius: 5% 0;
     margin: 16px 10px 10px 10px;
     float: left;
     height: 200px;
