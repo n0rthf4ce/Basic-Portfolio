@@ -161,6 +161,13 @@ textarea{
     margin: auto;
     
 }
+.back-to-portfolio{
+    font-size: .8em;
+    color: #4aaaa5;
+}
+.back-to-portfolio:hover{
+    opacity: .5;
+}
 #sidebar{
     padding: 0px 15px 15px 15px;
     background-color: white;
