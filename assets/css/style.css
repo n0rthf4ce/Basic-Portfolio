@@ -96,7 +96,7 @@ input, textarea{
     width: 100%;
     border: 1px lightgrey solid;
 }
-*:focus{
+input:focus, textarea:focus{
     background-color: #e8ffff;
 }
 textarea{
